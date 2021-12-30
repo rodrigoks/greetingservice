@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: greetingservice
+greetingservice:
+  greeting: "Olá"
+  default-value: "Mundo!"
