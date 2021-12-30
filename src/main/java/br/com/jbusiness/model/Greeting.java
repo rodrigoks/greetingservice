@@ -1,4 +1,4 @@
-package br.com.jbusiness;
+package br.com.jbusiness.model;
 
 public class Greeting {
 	
