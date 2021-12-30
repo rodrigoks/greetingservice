@@ -8,11 +8,12 @@ spring:
   cloud:
     config:
       profile: perf
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include:
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - refresh
 #        - '*'
 greetingservice:
   greeting: "Olá"
